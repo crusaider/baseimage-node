@@ -1,0 +1,25 @@
+{
+  "name": "baseimage-node-sample",
+  "version": "0.1.0",
+  "description": "A sample applicatiom to show how to use the crusadier/baseimage-node docker base image.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crusaider/baseimage-node.git"
+  },
+  "keywords": [
+    "sample",
+    "docker",
+    "node",
+    "js"
+  ],
+  "author": "Jonas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/crusaider/baseimage-node/issues"
+  },
+  "homepage": "https://github.com/crusaider/baseimage-node#readme"
+}
