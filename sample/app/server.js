@@ -17,7 +17,7 @@ var shutdown = function () {
         process.exit(0);
     });
     setTimeout(function () {
-        logger.error("Could not close connections in time, forcefully shutting down");
+        console.log("Could not close connections in time, forcefully shutting down");
         process.exit()
     }, 10 * 1000);
 };
