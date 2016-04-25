@@ -1,6 +1,22 @@
 # crusaider/baseimage-node
 Docker image based on phusion/baseimage-docker adding the node js runtime without the full blown phusion passenger.
 
+## Why Use This Image
+To utilize the befinits of [phusion/baseimage-docker](https://github.com/phusion/baseimage-docker) when building a container to run a node js application but not have to use one of the phusion passanger images.
+
+## How To Use
+1. Base your image on this using the `FROM`statement in your dockerfile.
+1. Add your application code and (resolve any dependencies using `NPM`).
+1. Add one or more service scripts in `/etc/service/*`
+1. `EXPOSE` any ports needed.
+
+That's it - now you can run your node js application in a docker container. There is a sample applicaiton in the repo on the [sample folder](https://github.com/crusaider/baseimage-node/sample) that shows how it can be used.
+
+## Source
+[Source Repository](https://github.com/crusaider/baseimage-node)
+
+[DockerHub](https://hub.docker.com/r/crusaider/baseimage-node/)
+
 ## License
 
 The MIT License (MIT)
