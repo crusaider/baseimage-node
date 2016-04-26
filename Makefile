@@ -11,6 +11,7 @@ build:
 
 test: 
 	env NAME=$(NAME) VERSION=$(VERSION) NODEVERSION=$(NODEVERSION) ./test/runner.sh
+	./test/test-sample-app.sh	
 
 tag_latest:
 	docker tag $(NAME):$(VERSION) $(NAME):latest
