@@ -1,6 +1,6 @@
 NAME = crusaider/baseimage-node
-VERSION = 0.1.0
-NODEVERSION = 4.4.3
+VERSION = 0.1.1
+NODEVERSION = 4.5.0
 
 .PHONY: all build test tag_latest release ssh
 
