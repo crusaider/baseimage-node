@@ -25,7 +25,7 @@ sleep 1
 
 trap cleanup EXIT
 
-RETVAL=$(curl -s -GET http://$(docker-machine ip):8080)
+RETVAL=$(curl -s -GET http://localhost:8080)
 
 if [[ "$RETVAL" != "Hellow World!" ]]; then
     abort "Did not get Hello World!"
