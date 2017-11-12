@@ -1,3 +1,8 @@
+## 0.1.2 (release date: 2017-11-12)
+
+ * Updated node to v8.9.1
+ * Updated to phusion/baseimage:0.9.22
+
 ## 0.1.1 (release date: 2016-09-27)
  
  * Updated node to v4.5.0
